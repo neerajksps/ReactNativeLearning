@@ -11,6 +11,7 @@ import UseMemoScreen from '../screens/UseMemoScreen';
 import UseCallbackScreen from '../screens/useCallbackScreen';
 import ContextApiScreen from '../screens/ContextApiScreen';
 import useRefScreen from '../screens/useRefScreen';
+import UseLayoutEffectScreen from '../screens/UseLayoutEffectScreen';
 
 const Stack = createStackNavigator();
 
@@ -57,6 +58,7 @@ const App = () => {
             <Stack.Screen name='useCallback' component={UseCallbackScreen} />
             <Stack.Screen name='contextApi' component={ContextApiScreen} />
             <Stack.Screen name='useRef' component={useRefScreen} />
+            <Stack.Screen name='useLayout' component={UseLayoutEffectScreen} />
             
             </Stack.Navigator>
     </NavigationContainer>

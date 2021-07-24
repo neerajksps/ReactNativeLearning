@@ -53,6 +53,13 @@ const HomeScreen = (props) => {
             >
                 
             </Button>
+
+            <Button
+                onPress={() => props.navigation.navigate('useLayout')}
+                title={'Use LayoutEffect screen'}
+            >
+                
+            </Button>
         </View>
         
     )
